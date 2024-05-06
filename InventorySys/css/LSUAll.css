@@ -1,0 +1,55 @@
+.form{ 
+    margin: 30px auto; 
+    border:1px solid red; 
+    width:70%; 
+    padding: 40px 30px;
+    box-shadow: 5px 10px #0c0b3f;
+    background-color: #13b328;
+}
+
+.center{
+    text-align: center
+}
+
+label{
+    
+    width:100px;
+    display: inline-flex;
+
+}
+.sn{
+    width:auto; 
+}
+
+.submit{
+    margin-left: 280px;
+    margin-top: 10px;
+}
+
+.inventoryform::placeholder {
+    color: #5351518e;
+  }
+
+  .flex{
+    display:flex;
+    width:fit-content;
+    
+
+  }
+
+  .thirdcolumn{
+    
+    position: relative;
+    width: 200px;
+
+  }
+
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 20%;
+    
+  }
