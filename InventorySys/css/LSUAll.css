@@ -1,8 +1,8 @@
 .form{ 
-    margin: 30px auto; 
+    margin: 10px auto; 
     border:1px solid red; 
     width:70%; 
-    padding: 40px 30px;
+    padding: 20px 30px;
     box-shadow: 5px 10px #0c0b3f;
     background-color: #13b328;
 }
@@ -13,7 +13,7 @@
 
 label{
     
-    width:100px;
+    width:120px;
     display: inline-flex;
 
 }
@@ -21,14 +21,8 @@ label{
     width:auto; 
 }
 
-.submit{
-    margin-left: 280px;
-    margin-top: 10px;
-}
 
-.inventoryform::placeholder {
-    color: #5351518e;
-  }
+
 
   .flex{
     display:flex;

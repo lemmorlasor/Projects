@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>LS Inventory System</title>
+        <link rel="stylesheet" href="css/LSUAll.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <form class="form">
+
+        <div class="flex">
+            <div>
+                <div>
+                    <label>Room:</label>
+                    <input class="border border-black" placeholder="e.g LS211" type="text" required>
+                </div>
+
+
+                <div>
+                    <label>PC#:</label>
+                    <input class="border border-black"  placeholder="e.g 1" type="number" required>
+                    <!--<button type="button">Ok</button> -->
+    
+                </div>
+    
+                <div>
+                    <label>Processor:</label>
+                    <input class="border border-black"  placeholder="e.g Corei5 4500" type="text" required>
+                    <label class="sn">SN:</label>
+                    <input class="border border-black"  placeholder="MT0001231FG" type="text" required>
+                </div>
+    
+                <div>
+                    <label>Power Supply:</label>
+                    <input class="border border-black"  placeholder="e.g TR2-S 700W" type="text" required>
+                    <label class="sn">SN:</label>
+                    <input class="border border-black"  placeholder="MT0001231FG" type="text" required>
+                </div>
+    
+                <div>
+                    <label>Mother Board:</label>
+                    <input class="border border-black"  placeholder="e.g Vanguard B85" type="text" required>
+                    <label class="sn">SN:</label>
+                    <input class="border border-black"  placeholder="MT0001231FG" type="text" required>
+                </div>
+    
+                <div>
+                    <label>Ram 1:</label>
+                    <input class="border border-black"  placeholder="e.g Kingston 2GB" type="text" required>
+                    <label class="sn">SN:</label>
+                    <input class="border border-black"  placeholder="MT0001231FG" type="text" required>
+                </div>
+
+                <div>
+                    <label>Ram 2:</label>
+                    <input class="border border-black"  placeholder="e.g Kingston 2GB" type="text" >
+                    <label class="sn">SN:</label>
+                    <input class="border border-black"  placeholder="MT0001231FG" type="text" >
+                </div>
+                <div>
+                    <label>Ram 3:</label>
+                    <input class="border border-black"  placeholder="e.g Kingston 2GB" type="text" >
+                    <label class="sn">SN:</label>
+                    <input class="border border-black"  placeholder="MT0001231FG" type="text" >
+                </div>
+                <div>
+                    <label>Ram 4:</label>
+                    <input class="border border-black"  placeholder="e.g Kingston 2GB" type="text" >
+                    <label class="sn">SN:</label>
+                    <input class="border border-black"  placeholder="MT0001231FG" type="text" >
+                </div>
+    
+                <div>
+                    <label>Hard Drive 1:</label>
+                    <input class="border border-black"  placeholder="e.g Toshiba 500GB" type="text" required>
+                    <label class="sn">SN:</label>
+                    <input class="border border-black"  placeholder="MT0001231FG" type="text" required>
+                </div>
+
+                <div>
+                    <label>Hard Drive 2:</label>
+                    <input class="border border-black"  placeholder="e.g Toshiba 500GB" type="text" >
+                    <label class="sn">SN:</label>
+                    <input class="border border-black"  placeholder="MT0001231FG" type="text" >
+                </div>
+
+                <div>
+                    <label>Hard Drive 3:</label>
+                    <input class="border border-black"  placeholder="e.g Toshiba 500GB" type="text" >
+                    <label class="sn">SN:</label>
+                    <input class="border border-black"  placeholder="MT0001231FG" type="text" >
+                </div>
+    
+                <div>
+                    <label>Graphic Card:</label>
+                    <input class="border border-black"  placeholder="e.g Gigabyte RX 6600xt" type="text" required>
+                    <label class="sn">SN:</label>
+                    <input class="border border-black"  placeholder="MT0001231FG" type="text" required>
+                </div>
+
+                <div>
+                    <label>PCIe:</label>
+                    <input class="border border-black"  placeholder="e.g Gigabyte RX 6600xt" type="text" >
+                    <label class="sn">SN:</label>
+                    <input class="border border-black"  placeholder="MT0001231FG" type="text" >
+                </div>
+                <div>
+                    <label>PCIe:</label>
+                    <input class="border border-black"  placeholder="e.g Gigabyte RX 6600xt" type="text" >
+                    <label class="sn">SN:</label>
+                    <input class="border border-black"  placeholder="MT0001231FG" type="text" >
+                </div>
+    
+                <div>
+                    <label>Sticker:</label>
+                    <input class="border border-black"  placeholder="e.g 1283" type="number" required>
+                </div>
+                
+            </div>
+    
+            <div class="thirdcolumn">
+                <input type="date" class="vertical-center" required/>
+            </div>
+        </div>
+        <div class="py-2 mx-80">
+            <button class="bg-white px-2 py-1 rounded-md">Submit</button>
+        </div>
+
+
+
+    </form>
+    <div class="w-11/12 border my-10 shadow-lg mx-auto">
+        <div>
+            <div class="border">
+                <ul class="flex justify-evenly w-full border-b">
+                    <li class="w-full text-center text-xs uppercase bg-black text-white py-2">
+                        Room
+                    </li>
+                    <li class="w-full text-center text-xs uppercase bg-black text-white py-2">
+                        PC #
+                    </li>
+                    <li class="w-full text-center text-xs uppercase bg-black text-white py-2">
+                        Processor
+                    </li>
+                    <li class="w-full text-center text-xs uppercase bg-black text-white py-2">
+                        Power Supply
+                    </li>
+                    <li class="w-full text-center text-xs uppercase bg-black text-white py-2">
+                        Mother Board
+                    </li>
+                    <li class="w-full text-center text-xs uppercase bg-black text-white py-2">
+                        Ram
+                    </li>
+                    <li class="w-full text-center text-xs uppercase bg-black text-white py-2">
+                        Hard Drive
+                    </li>
+                    <li class="w-full text-center text-xs uppercase bg-black text-white py-2">
+                        Graphic Card
+                    </li>
+                    <li class="w-full text-center text-xs uppercase bg-black text-white py-2">
+                        Sticker
+                    </li>
+                    <li class="w-full text-center text-xs uppercase bg-black text-white py-2">
+                        Date
+                    </li>
+                    <li class="w-full text-center text-xs uppercase bg-black text-white py-2 px-4">
+                       actions
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-10">
+                <ul class="flex items-center justify-evenly w-full border-b "> <!--1st Column-->
+                    <li class="w-full  text-center">
+                        col 1
+                    </li>
+                    <li class="w-full  text-center">
+                        col 2
+                    </li>
+                    <li class="w-full  text-center">
+                        col 3
+                    </li>
+                    <li class="w-full  text-center">
+                        col 4
+                    </li>
+                    <li class="w-full  text-center">
+                        col 5
+                    </li>
+                    <li class="w-full  text-center">
+                        col 6
+                    </li>
+                    <li class="w-full  text-center">
+                        col 7
+                    </li>
+                    <li class="w-full  text-center">
+                        col 8
+                    </li>
+                    <li class="w-full  text-center">
+                        col 9
+                    </li>
+                    <li class="w-full  text-center">
+                        col 10
+                    </li>
+                    <li class="w-full justify-evenly py-2 text-center flex gap-1 px-4">
+                        <button class="bg-blue-700 text-white px-2 py-1 uppercase rounded-lg text-xs">
+                            
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button class="bg-yellow-500 text-white px-2 py-1 uppercase rounded-lg text-xs">
+                            
+                            <i class="fa fa-pencil"></i>
+                        </button>
+                        <button class="bg-red-700 text-white px-2 py-1 uppercase rounded-lg text-xs">
+                            <i class="fa fa-trash"></i>
+                        </button>
+                    </li>
+                </ul>
+                <ul class="flex items-center justify-evenly w-full border-b "><!--2nd Column-->
+                    <li class="w-full  text-center">
+                        col 1
+                    </li>
+                    <li class="w-full  text-center">
+                        col 2
+                    </li>
+                    <li class="w-full  text-center">
+                        col 3
+                    </li>
+                    <li class="w-full  text-center">
+                        col 4
+                    </li>
+                    <li class="w-full  text-center">
+                        col 5
+                    </li>
+                    <li class="w-full  text-center">
+                        col 6
+                    </li>
+                    <li class="w-full  text-center">
+                        col 7
+                    </li>
+                    <li class="w-full  text-center">
+                        col 8
+                    </li>
+                    <li class="w-full  text-center">
+                        col 9
+                    </li>
+                    <li class="w-full  text-center">
+                        col 10
+                    </li>
+                    <li class="w-full justify-evenly py-2 text-center flex gap-1 px-4">
+                        <button class="bg-blue-700 text-white px-2 py-1 uppercase rounded-lg text-xs">
+                            
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button class="bg-yellow-500 text-white px-2 py-1 uppercase rounded-lg text-xs">
+                            
+                            <i class="fa fa-pencil"></i>
+                        </button>
+                        <button class="bg-red-700 text-white px-2 py-1 uppercase rounded-lg text-xs">
+                            <i class="fa fa-trash"></i>
+                        </button>
+                    </li>
+                </ul>
+                <ul class="flex items-center justify-evenly w-full border-b "><!--3rd Column-->
+                    <li class="w-full  text-center">
+                        col 1
+                    </li>
+                    <li class="w-full  text-center">
+                        col 2
+                    </li>
+                    <li class="w-full  text-center">
+                        col 3
+                    </li>
+                    <li class="w-full  text-center">
+                        col 4
+                    </li>
+                    <li class="w-full  text-center">
+                        col 5
+                    </li>
+                    <li class="w-full  text-center">
+                        col 6
+                    </li>
+                    <li class="w-full  text-center">
+                        col 7
+                    </li>
+                    <li class="w-full  text-center">
+                        col 8
+                    </li>
+                    <li class="w-full  text-center">
+                        col 9
+                    </li>
+                    <li class="w-full  text-center">
+                        col 10
+                    </li>
+                    <li class="w-full justify-evenly py-2 text-center flex gap-1 px-4">
+                        <button class="bg-blue-700 text-white px-2 py-1 uppercase rounded-lg text-xs">
+                            
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button class="bg-yellow-500 text-white px-2 py-1 uppercase rounded-lg text-xs">
+                            
+                            <i class="fa fa-pencil"></i>
+                        </button>
+                        <button class="bg-red-700 text-white px-2 py-1 uppercase rounded-lg text-xs">
+                            <i class="fa fa-trash"></i>
+                        </button>
+                    </li>
+                </ul>
+                <ul class="flex items-center justify-evenly w-full border-b "><!--4th Column-->
+                    <li class="w-full  text-center">
+                        col 1
+                    </li>
+                    <li class="w-full  text-center">
+                        col 2
+                    </li>
+                    <li class="w-full  text-center">
+                        col 3
+                    </li>
+                    <li class="w-full  text-center">
+                        col 4
+                    </li>
+                    <li class="w-full  text-center">
+                        col 5
+                    </li>
+                    <li class="w-full  text-center">
+                        col 6
+                    </li>
+                    <li class="w-full  text-center">
+                        col 7
+                    </li>
+                    <li class="w-full  text-center">
+                        col 8
+                    </li>
+                    <li class="w-full  text-center">
+                        col 9
+                    </li>
+                    <li class="w-full  text-center">
+                        col 10
+                    </li>
+                    <li class="w-full justify-evenly py-2 text-center flex gap-1 px-4">
+                        <button class="bg-blue-700 text-white px-2 py-1 uppercase rounded-lg text-xs">
+                            
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button class="bg-yellow-500 text-white px-2 py-1 uppercase rounded-lg text-xs">
+                            
+                            <i class="fa fa-pencil"></i>
+                        </button>
+                        <button class="bg-red-700 text-white px-2 py-1 uppercase rounded-lg text-xs">
+                            <i class="fa fa-trash"></i>
+                        </button>
+                    </li>
+                </ul>
+                <ul class="flex items-center justify-evenly w-full border-b "><!--5th Column-->
+                    <li class="w-full  text-center">
+                        col 1
+                    </li>
+                    <li class="w-full  text-center">
+                        col 2
+                    </li>
+                    <li class="w-full  text-center">
+                        col 3
+                    </li>
+                    <li class="w-full  text-center">
+                        col 4
+                    </li>
+                    <li class="w-full  text-center">
+                        col 5
+                    </li>
+                    <li class="w-full  text-center">
+                        col 6
+                    </li>
+                    <li class="w-full  text-center">
+                        col 7
+                    </li>
+                    <li class="w-full  text-center">
+                        col 8
+                    </li>
+                    <li class="w-full  text-center">
+                        col 9
+                    </li>
+                    <li class="w-full  text-center">
+                        col 10
+                    </li>
+                    <li class="w-full justify-evenly py-2 text-center flex gap-1 px-4">
+                        <button class="bg-blue-700 text-white px-2 py-1 uppercase rounded-lg text-xs">
+                            
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button class="bg-yellow-500 text-white px-2 py-1 uppercase rounded-lg text-xs">
+                            
+                            <i class="fa fa-pencil"></i>
+                        </button>
+                        <button class="bg-red-700 text-white px-2 py-1 uppercase rounded-lg text-xs">
+                            <i class="fa fa-trash"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <ul class="flex mx-auto w-fit pt-0 pb-5 gap-5">
+                <li class="shadow px-2 py-1 rounded-lg font-bold bg-gray-200 text-white">Prev</li>
+                <li class="shadow px-2 py-1 rounded-lg font-bold bg-green-900 text-white">1</li>
+                <li class="shadow px-2 py-1 rounded-lg font-bold">2</li>
+                <li class="shadow px-2 py-1 rounded-lg font-bold">3</li>
+                <li class="shadow px-2 py-1 rounded-lg font-bold">4</li>
+                <li class="shadow px-2 py-1 rounded-lg font-bold">5</li>
+                <li class="shadow px-2 py-1 rounded-lg font-bold text-white bg-blue-600">Next</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
